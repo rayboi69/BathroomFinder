@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "BathroomFinder.jpeg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "BathroomFinder@2x.jpeg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "BathroomFinder@3x.jpeg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

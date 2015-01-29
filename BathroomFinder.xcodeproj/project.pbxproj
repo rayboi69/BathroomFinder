@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083D1C011A11D2BD00E29F19 /* TestBathroom2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083D1C001A11D2BD00E29F19 /* TestBathroom2.swift */; };
 		08BF1BCF1A073ACE00DBBF8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BCE1A073ACE00DBBF8C /* AppDelegate.swift */; };
 		08BF1BD21A073ACE00DBBF8C /* BathroomFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BD01A073ACE00DBBF8C /* BathroomFinder.xcdatamodeld */; };
 		08BF1BD41A073ACE00DBBF8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BD31A073ACE00DBBF8C /* ViewController.swift */; };
@@ -14,6 +15,19 @@
 		08BF1BD91A073ACE00DBBF8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BF1BD81A073ACE00DBBF8C /* Images.xcassets */; };
 		08BF1BDC1A073ACE00DBBF8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08BF1BDA1A073ACE00DBBF8C /* LaunchScreen.xib */; };
 		08BF1BE81A073ACE00DBBF8C /* BathroomFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BE71A073ACE00DBBF8C /* BathroomFinderTests.swift */; };
+		08BF1BF21A08A28700DBBF8C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BF11A08A28700DBBF8C /* UserViewController.swift */; };
+		08BF1BF41A0D9D3000DBBF8C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BF31A0D9D3000DBBF8C /* MapViewController.swift */; };
+		08BF1BF61A0D9F9700DBBF8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BF1BF51A0D9F9700DBBF8C /* MapKit.framework */; };
+		08BF1BF81A0DA33100DBBF8C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BF1BF71A0DA33100DBBF8C /* CoreLocation.framework */; };
+		08BF1BFA1A0DA7AB00DBBF8C /* TestBathroom1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BF91A0DA7AB00DBBF8C /* TestBathroom1.swift */; };
+		08BF1BFC1A0EF27B00DBBF8C /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BFB1A0EF27B00DBBF8C /* ProviderViewController.swift */; };
+		08BF1BFE1A0EF59300DBBF8C /* ProviderRegister1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BFD1A0EF59300DBBF8C /* ProviderRegister1ViewController.swift */; };
+		08BF1C001A0EF5E500DBBF8C /* ProviderRegister2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1BFF1A0EF5E500DBBF8C /* ProviderRegister2ViewController.swift */; };
+		08BF1C021A0F1F8400DBBF8C /* CreateBathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1C011A0F1F8400DBBF8C /* CreateBathroomViewController.swift */; };
+		08BF1C041A0F244D00DBBF8C /* ProvideMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1C031A0F244D00DBBF8C /* ProvideMapViewController.swift */; };
+		08BF1C061A0F329D00DBBF8C /* UsingBathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1C051A0F329D00DBBF8C /* UsingBathroomViewController.swift */; };
+		08BF1C081A0F32AC00DBBF8C /* ConfirmEndUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1C071A0F32AC00DBBF8C /* ConfirmEndUseViewController.swift */; };
+		08BF1C0A1A0F32D000DBBF8C /* FinalConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BF1C091A0F32D000DBBF8C /* FinalConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		083D1C001A11D2BD00E29F19 /* TestBathroom2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBathroom2.swift; sourceTree = "<group>"; };
 		08BF1BC91A073ACE00DBBF8C /* BathroomFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BathroomFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BF1BCD1A073ACE00DBBF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BF1BCE1A073ACE00DBBF8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +53,19 @@
 		08BF1BE11A073ACE00DBBF8C /* BathroomFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BathroomFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BF1BE61A073ACE00DBBF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BF1BE71A073ACE00DBBF8C /* BathroomFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomFinderTests.swift; sourceTree = "<group>"; };
+		08BF1BF11A08A28700DBBF8C /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		08BF1BF31A0D9D3000DBBF8C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		08BF1BF51A0D9F9700DBBF8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		08BF1BF71A0DA33100DBBF8C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		08BF1BF91A0DA7AB00DBBF8C /* TestBathroom1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestBathroom1.swift; sourceTree = "<group>"; };
+		08BF1BFB1A0EF27B00DBBF8C /* ProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
+		08BF1BFD1A0EF59300DBBF8C /* ProviderRegister1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderRegister1ViewController.swift; sourceTree = "<group>"; };
+		08BF1BFF1A0EF5E500DBBF8C /* ProviderRegister2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderRegister2ViewController.swift; sourceTree = "<group>"; };
+		08BF1C011A0F1F8400DBBF8C /* CreateBathroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBathroomViewController.swift; sourceTree = "<group>"; };
+		08BF1C031A0F244D00DBBF8C /* ProvideMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvideMapViewController.swift; sourceTree = "<group>"; };
+		08BF1C051A0F329D00DBBF8C /* UsingBathroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsingBathroomViewController.swift; sourceTree = "<group>"; };
+		08BF1C071A0F32AC00DBBF8C /* ConfirmEndUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmEndUseViewController.swift; sourceTree = "<group>"; };
+		08BF1C091A0F32D000DBBF8C /* FinalConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BF1BF81A0DA33100DBBF8C /* CoreLocation.framework in Frameworks */,
+				08BF1BF61A0D9F9700DBBF8C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +91,9 @@
 		08BF1BC01A073ACE00DBBF8C = {
 			isa = PBXGroup;
 			children = (
+				083D1C001A11D2BD00E29F19 /* TestBathroom2.swift */,
+				08BF1BF71A0DA33100DBBF8C /* CoreLocation.framework */,
+				08BF1BF51A0D9F9700DBBF8C /* MapKit.framework */,
 				08BF1BCB1A073ACE00DBBF8C /* BathroomFinder */,
 				08BF1BE41A073ACE00DBBF8C /* BathroomFinderTests */,
 				08BF1BCA1A073ACE00DBBF8C /* Products */,
@@ -81,11 +114,22 @@
 			children = (
 				08BF1BCE1A073ACE00DBBF8C /* AppDelegate.swift */,
 				08BF1BD31A073ACE00DBBF8C /* ViewController.swift */,
+				08BF1BF31A0D9D3000DBBF8C /* MapViewController.swift */,
+				08BF1BF91A0DA7AB00DBBF8C /* TestBathroom1.swift */,
+				08BF1BF11A08A28700DBBF8C /* UserViewController.swift */,
 				08BF1BD51A073ACE00DBBF8C /* Main.storyboard */,
+				08BF1C011A0F1F8400DBBF8C /* CreateBathroomViewController.swift */,
+				08BF1BFD1A0EF59300DBBF8C /* ProviderRegister1ViewController.swift */,
+				08BF1BFF1A0EF5E500DBBF8C /* ProviderRegister2ViewController.swift */,
+				08BF1BFB1A0EF27B00DBBF8C /* ProviderViewController.swift */,
+				08BF1C031A0F244D00DBBF8C /* ProvideMapViewController.swift */,
 				08BF1BD81A073ACE00DBBF8C /* Images.xcassets */,
 				08BF1BDA1A073ACE00DBBF8C /* LaunchScreen.xib */,
 				08BF1BD01A073ACE00DBBF8C /* BathroomFinder.xcdatamodeld */,
 				08BF1BCC1A073ACE00DBBF8C /* Supporting Files */,
+				08BF1C051A0F329D00DBBF8C /* UsingBathroomViewController.swift */,
+				08BF1C071A0F32AC00DBBF8C /* ConfirmEndUseViewController.swift */,
+				08BF1C091A0F32D000DBBF8C /* FinalConfirmationViewController.swift */,
 			);
 			path = BathroomFinder;
 			sourceTree = "<group>";
@@ -164,6 +208,11 @@
 				TargetAttributes = {
 					08BF1BC81A073ACE00DBBF8C = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					08BF1BE01A073ACE00DBBF8C = {
 						CreatedOnToolsVersion = 6.1;
@@ -215,9 +264,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BF1C0A1A0F32D000DBBF8C /* FinalConfirmationViewController.swift in Sources */,
+				08BF1BFE1A0EF59300DBBF8C /* ProviderRegister1ViewController.swift in Sources */,
 				08BF1BD41A073ACE00DBBF8C /* ViewController.swift in Sources */,
+				08BF1C001A0EF5E500DBBF8C /* ProviderRegister2ViewController.swift in Sources */,
+				08BF1C061A0F329D00DBBF8C /* UsingBathroomViewController.swift in Sources */,
+				08BF1BF21A08A28700DBBF8C /* UserViewController.swift in Sources */,
 				08BF1BCF1A073ACE00DBBF8C /* AppDelegate.swift in Sources */,
+				08BF1BFC1A0EF27B00DBBF8C /* ProviderViewController.swift in Sources */,
+				083D1C011A11D2BD00E29F19 /* TestBathroom2.swift in Sources */,
+				08BF1C081A0F32AC00DBBF8C /* ConfirmEndUseViewController.swift in Sources */,
+				08BF1C041A0F244D00DBBF8C /* ProvideMapViewController.swift in Sources */,
+				08BF1BF41A0D9D3000DBBF8C /* MapViewController.swift in Sources */,
 				08BF1BD21A073ACE00DBBF8C /* BathroomFinder.xcdatamodeld in Sources */,
+				08BF1BFA1A0DA7AB00DBBF8C /* TestBathroom1.swift in Sources */,
+				08BF1C021A0F1F8400DBBF8C /* CreateBathroomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BathroomFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BathroomFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +472,7 @@
 				08BF1BED1A073ACE00DBBF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08BF1BEE1A073ACE00DBBF8C /* Build configuration list for PBXNativeTarget "BathroomFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +481,7 @@
 				08BF1BF01A073ACE00DBBF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
